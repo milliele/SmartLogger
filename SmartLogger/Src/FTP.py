@@ -61,7 +61,6 @@ class FTPFrame(wx.Dialog):
 
         # Connect Events
         self.Bind(wx.EVT_CLOSE, self.OnClose)
-        self.Bind(wx.EVT_SHOW, self.OnShow)
         self.ButtonsCancel.Bind(wx.EVT_BUTTON, self.OnCancel)
         self.ButtonsOK.Bind(wx.EVT_BUTTON, self.OnCancel)
 
@@ -82,25 +81,6 @@ class FTPFrame(wx.Dialog):
 
     def OnCancel(self, event):
         self.Close()
-
-    def OnShow(self, event):
-        if event.IsShown():
-            # 上传前准备
-            app = wx.App.Get()
-            process = app.watchprocess
-            is_toup = FTP_pending(process.loop_thread.GetSetting('localpath'))
-            if is_toup:
-                import os
-                message = u'检测到有未上传的日志' + os.linesep + u'确认上传吗？' + os.linesep + u'为了顺利上传，上传前请关闭所有打开的日志文件后再点击“是”！' + os.linesep + u'上传过程中请勿打开任何临时文件！'
-                res = wx.MessageBox(message, u"FTP上传",
-                                    wx.YES_NO | wx.CANCEL | wx.YES_DEFAULT | wx.CENTRE | wx.STAY_ON_TOP | wx.ICON_EXCLAMATION)
-                if res == wx.YES:
-                    self.upload = FTPup(process.loop_thread.log_lock, self.Status, self.Progess, (self.ButtonsOK, self.ButtonsCancel))
-                    self.ButtonsOK.Enable(False)
-                    self.upload.Begin((process.loop_thread.GetSetting('ftp'), process.loop_thread.GetSetting('localpath')))
-            else:
-                wx.MessageBox(u'没有未上传的日志！', u"FTP上传")
-                self.Close()
 
 def endWith(*endstring):
     ends = endstring
@@ -185,23 +165,14 @@ class FTPup():
             list_file = os.listdir(localpath)
             a = endWith('.log')
             log_file = filter(a, list_file)
-            a = endWith('.log~p')
-            log_pfile = filter(a, list_file)
-            if log_pfile or log_file:
-                num = len(log_file) + len(log_pfile)
+            if log_file:
+                num = len(log_file)
                 self.Message(u'共找到%d个待上传文件'%num + linespace)
                 if self.Progess != None: self.Progess.SetRange(num)
                 failed = 0
                 cnt = 1
                 ftp = self.ftpinit(setting)
                 if ftp != None:
-                    for x in log_pfile:
-                        # x = unicode(x, 'gbk')
-                        self.Message(u'正在上传：%s...' % x + linespace)
-                        if not self.RealUpload(x, localpath, ftp, cnt, num):
-                            failed+=1
-                        if self.Progess != None: self.Progess.SetValue(self.Progess.GetValue()+1)
-                        cnt += 1
                     for x in log_file:
                         # x = unicode(x, 'gbk')
                         self.Message(u'正在上传：%s...' % x + linespace)
@@ -223,37 +194,37 @@ class FTPup():
     def RealUpload(self, x, localpath, ftp, mycnt, num):
         # 改名
         filepath = os.path.join(localpath, x)
-        if x.endswith('.log'):
-            new = filepath + '~p'
-            #*******************************************
-            while True:
-                try:
-                    os.rename(filepath, new)
-                    break
-                except IndentationError, e:
-                    (pa, tmb) = os.path.split(new)
-                    (base, ext) = os.path.splitext(tmb)
-                    li = base.split('+')
-                    if len(li) <= 1:
-                        tmp = 0
-                    else:
-                        tmp = int(li[1]) + 1
-                        new = os.path.join(pa, li[0] + '+' + str(tmp) + ext)
-                    continue
-                except WindowsError, e:
-                    if e.winerror == 32:
-                        res = FileCopy(filepath, new, self.__lock)
-                        if res != '':
-                            self.Message(u'临时文件生成异常，异常信息：%s' % res + os.linesep)
-                            return False
-                        break
-                    else:
-                        self.Message(u'访问异常，异常信息：%s' % repr(e) + os.linesep)
-                        return False
-                except Exception, e:
-                    self.Message(u'访问异常，异常信息：%s'%repr(e) + os.linesep)
-                    return False
-            filepath = new
+        # if x.endswith('.log'):
+        #     new = filepath + '~p'
+        #     #*******************************************
+        #     while True:
+        #         try:
+        #             os.rename(filepath, new)
+        #             break
+        #         except IndentationError, e:
+        #             (pa, tmb) = os.path.split(new)
+        #             (base, ext) = os.path.splitext(tmb)
+        #             li = base.split('+')
+        #             if len(li) <= 1:
+        #                 tmp = 0
+        #             else:
+        #                 tmp = int(li[1]) + 1
+        #                 new = os.path.join(pa, li[0] + '+' + str(tmp) + ext)
+        #             continue
+        #         except WindowsError, e:
+        #             if e.winerror == 32:
+        #                 res = FileCopy(filepath, new, self.__lock)
+        #                 if res != '':
+        #                     self.Message(u'临时文件生成异常，异常信息：%s' % res + os.linesep)
+        #                     return False
+        #                 break
+        #             else:
+        #                 self.Message(u'访问异常，异常信息：%s' % repr(e) + os.linesep)
+        #                 return False
+        #         except Exception, e:
+        #             self.Message(u'访问异常，异常信息：%s'%repr(e) + os.linesep)
+        #             return False
+        #     filepath = new
         # 代码重试机制
         retry = 5
         cnt = 0
@@ -262,9 +233,12 @@ class FTPup():
             try:
                 # 上传工作
                 ftpup(ftp, filepath, self.__lock)
+                try:
+                    os.remove(filepath.encode('gbk'))
+                except Exception,e:
+                    pass
                 # 上传成功
                 self.Message(u'%s上传成功!(%d/%d)' % (x, mycnt, num) + os.linesep)
-                os.remove(filepath.encode('gbk'))
                 return True
             except Exception, e:
                 self.Message(u'上传失败，异常信息：%s'%repr(e) + os.linesep)
@@ -334,7 +308,7 @@ def ftpup(ftp,filepath, lock):
     file_handler = open(filepath, 'rb')
     # 以读模式在本地打开文件
     lock.acquire_read()
-    ftp.storbinary('STOR %s' % os.path.basename(filepath)[0:-2], file_handler, bufsize)
+    ftp.storbinary('STOR %s' % os.path.basename(filepath), file_handler, bufsize)
     lock.release()
     # 上传文件
     file_handler.close()
@@ -352,6 +326,21 @@ def FileCopy(oldname, newname, lock=None):
         if lock != None: lock.release()
         return repr(e)
 
+from ctypes import cdll
+import os
+
+_sopen = cdll.msvcrt._sopen
+_close = cdll.msvcrt._close
+_SH_DENYRW = 0x10
+
+def is_open(filename):
+    if not os.access(filename, os.F_OK):
+        return False # file doesn't exist
+    h = _sopen(filename, 0, _SH_DENYRW, 0)
+    if h == 3:
+        _close(h)
+        return False # file is not opened by anyone else
+    return True # file is already open
 
 if __name__ == '__main__':
     pass

@@ -113,7 +113,7 @@ class SettingFrame(wx.Frame):
 
         self.v_onshutdown = wx.CheckBox(Info_FTP.GetStaticBox(), wx.ID_ANY, u"关机前进行FTP上传", wx.DefaultPosition,
                                         wx.DefaultSize, 0)
-        self.v_onshutdown.SetValue(True)
+        self.v_onshutdown.Disable()
         FTPSizer.Add(self.v_onshutdown, wx.GBPosition(3, 1), wx.GBSpan(1, 2), wx.ALL, 5)
 
         Info_FTP.Add(FTPSizer, 1, wx.EXPAND, 5)
@@ -245,6 +245,7 @@ class SettingFrame(wx.Frame):
             self.Close()
             for k in args:
                 loop.ChangeSetting(k, args[k])
+            loop.setconf()
             print 'end changing'
 
     def CancelSetting(self, event):

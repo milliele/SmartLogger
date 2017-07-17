@@ -16,6 +16,54 @@ import FTP
 import threading
 import json
 
+def encrypt(key, s):
+    b = bytearray(str(s).encode("gbk"))
+    n = len(b)  # 求出 b 的字节数
+    c = bytearray(n * 2)
+    j = 0
+    for i in range(0, n):
+        b1 = b[i]
+        b2 = b1 ^ key  # b1 = b2^ key
+        c1 = b2 % 16
+        c2 = b2 // 16  # b2 = c2*16 + c1
+        c1 = c1 + 65
+        c2 = c2 + 65  # c1,c2都是0~15之间的数,加上65就变成了A-P 的字符的编码
+        c[j] = c1
+        c[j + 1] = c2
+        j = j + 2
+    return c.decode("gbk")
+
+def decrypt(key, s):
+    c = bytearray(str(s).encode("gbk"))
+    n = len(c)  # 计算 b 的字节数
+    if n % 2 != 0:
+        return ""
+    n = n // 2
+    b = bytearray(n)
+    j = 0
+    for i in range(0, n):
+        c1 = c[j]
+        c2 = c[j + 1]
+        j = j + 2
+        c1 = c1 - 65
+        c2 = c2 - 65
+        b2 = c2 * 16 + c1
+        b1 = b2 ^ key
+        b[i] = b1
+    try:
+        return b.decode("gbk")
+    except:
+        return "failed"
+
+def getmyip():
+    import socket
+    import re
+    names, aliases, ips = socket.gethostbyname_ex(socket.gethostname())
+    for ip in ips:
+        if not re.match('^192', ip):
+            return ip
+    return socket.gethostbyname(socket.gethostname())
+
 class Loop(threading.Thread):
 
     def __init__(self):
@@ -27,16 +75,6 @@ class Loop(threading.Thread):
         self.setting_lock = RWLock.RWLock() # 设置的读写锁
         # ******************************** 初始化 ***********************************
         self.getconf() # 从配置文件里读取设置
-
-        is_up = False
-        while hasattr(self, 'upload') and hasattr(self.upload, 't') and self.upload.t.isAlive():
-            is_up = True
-        if not is_up:
-            ### *********************** 此处应该隐式唤醒ftp
-            Logger.logger.info(u'开机扫描')
-            self.upload = FTP.FTPup(self.log_lock)
-            self.upload.Begin((self.GetSetting('ftp'), self.GetSetting('localpath')))
-            ### *********************** 此处应该隐式唤醒ftp
 
     def watchProcess(self):
         now_process = []
@@ -58,7 +96,7 @@ class Loop(threading.Thread):
             except ValueError,e:
                 Logger.logger.warning("Reading watchProcess confugiration: " + repr(e)+ "[Returned to default setting]")
                 fobj = open('Conf/default.conf', 'w')
-                fobj.write('{"machine": "Zeus", "ftp": {"port": 21, "path": "", "pwd": "11", "host": "localhost", "usr": "uftp"}, "last_date": "20170503", "onshut": true, "ip": "192.168.17.1", "interval": 6, "localpath": "./"}')
+                fobj.write('{"ftp": {"usr": "HHAGLG", "path": "", "host": "211.159.154.123", "pwd": "DEHGOEKELHMDODPDJD", "port": 21}, "onshut": true, "ip": "", "interval": 30, "localpath": "ProcLog", "machine": "", "last_date": ""}')
                 fobj.close()
                 continue
         if 'localpath' not in settings:
@@ -70,8 +108,10 @@ class Loop(threading.Thread):
         if 'ftp' not in settings: settings['ftp']= {'host':'localhost',
                    'port': 21,
                    'path':'',
-                   'usr':'uftp',
-                   'pwd':'11'}
+                   'usr':'HHAGLG',
+                   'pwd':'DEHGOEKELHMDODPDJD'}
+        settings['ftp']['usr'] = decrypt(14, settings['ftp']['usr'])
+        settings['ftp']['pwd'] = decrypt(14, settings['ftp']['pwd'])
         if 'onshut' not in settings: settings['onshut'] = True
         # 获取最后日期
         if 'last_date' not in settings:
@@ -82,11 +122,15 @@ class Loop(threading.Thread):
 
     def setconf(self):
         Logger.logger.info(u'保存设置到文件...')
+        import copy
+        tmp = copy.deepcopy(self.GetSetting('ftp'))
+        tmp['usr'] = encrypt(14, tmp['usr'])
+        tmp['pwd'] = encrypt(14, tmp['pwd'])
         settings = {'machine': self.GetSetting('machine'),
                     'ip': self.GetSetting('ip'),
                     'interval': self.GetSetting('interval'),
                     'localpath': self.GetSetting('localpath'),
-                    'ftp':self.GetSetting('ftp'),
+                    'ftp':tmp,
                     'last_date': self.GetSetting('last_date'),
                     'onshut':self.GetSetting('onshut')}
         json.dump(settings, open('Conf/default.conf', 'w'))
@@ -101,8 +145,8 @@ class Loop(threading.Thread):
                 self.machine = value
         if key == 'ip':
             if value =='':
-                import socket
-                self.ip = socket.gethostbyname(socket.gethostname())  # 得到本地ip
+                self.ip = getmyip()  # 得到本地ip
+                print self.ip
             else:
                 self.ip = value
         if key == 'localpath':
@@ -115,7 +159,7 @@ class Loop(threading.Thread):
                 import thread
                 import copy
                 tmp = copy.deepcopy(self.path)
-                thread.start_new_thread(deliver_file, args=(tmp, value))
+                thread.start_new_thread(deliver_file, (tmp, value))
             self.path = value
         if key == 'interval':
             self.interval = value
@@ -146,20 +190,19 @@ class Loop(threading.Thread):
             print filename
             if hasattr(self, 'fobj') and not self.fobj.closed:
                 self.fobj.close()
-            if date != self.GetSetting('last_date'):
-                ### *********************** 此处应该隐式唤醒ftp
-                Logger.logger.info(u'新的一天上传前天文件...')
-                self.upload = FTP.FTPup(self.log_lock)
-                self.upload.Begin((self.GetSetting('ftp'), self.GetSetting('localpath')))
-                ### *********************** 此处应该隐式唤醒ftp
-                self.ChangeSetting('last_date', date)
+            ### *********************** 此处应该隐式唤醒ftp
+            Logger.logger.info(u'文件名改变，上传之前文件')
+            self.upload = FTP.FTPup(self.log_lock)
+            self.upload.Begin((self.GetSetting('ftp'), self.GetSetting('localpath')))
+            ### *********************** 此处应该隐式唤醒ftp
+            self.ChangeSetting('last_date', date)
             self.filename = filename
         if not hasattr(self, 'fobj') or self.fobj.closed:
             self.fobj = open(self.filename, 'a')
 
     def run(self):
         # ******************************** 不断刷新扫描 ***********************************
-        last_info = {}
+        self.last_info = {}
         while self.__running.isSet():
             try:
                 self.__flag.wait()
@@ -170,9 +213,9 @@ class Loop(threading.Thread):
                 clock = time.strftime('%Y-%m-%d %H:%M:%S %a', time.localtime(time.time()))
                 print clock
                 now_info = self.watchProcess()
-                new_in = list(set(now_info).difference(set(last_info)))  # 新启动的
-                new_out = list(set(last_info).difference(set(now_info)))  # 消失的
-                last_info = now_info
+                new_in = list(set(now_info).difference(set(self.last_info)))  # 新启动的
+                new_out = list(set(self.last_info).difference(set(now_info)))  # 消失的
+                self.last_info = now_info
                 if new_in or new_out:
                     self.log_lock.acquire_write()
                     json.dump({
@@ -181,6 +224,7 @@ class Loop(threading.Thread):
                         'out': new_out
                     }, self.fobj)
                     self.fobj.write(os.linesep)
+                    self.fobj.flush()
                     self.log_lock.release()
 
             # ************************************* 捕获异常 *******************************
@@ -275,4 +319,4 @@ def deliver_file(path1, path2):
         Logger.logger.info(u"转移完成")
 
 if __name__ == '__main__':
-    print os.path.abspath('C:\\副本')
+    pass
