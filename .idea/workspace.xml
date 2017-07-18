@@ -2,123 +2,76 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a34f764-9625-48f8-ac9e-e1ebeeb79fd4" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Log2CSV/Zeus-192.168.17.1-20170503.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Log2CSV/Zeus-192.168.17.1-20170503.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/123.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/123.spec" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/ExeLog/exelog.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/ProcLog/Zeus-192.168.17.1-20170504.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/SmartLogger.spec" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/build/123/123.exe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/build/123/123.exe.manifest" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/build/123/out00-Analysis.toc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/build/123/out00-COLLECT.toc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/build/123/out00-EXE.toc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/build/123/out00-PKG.pkg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/build/123/out00-PKG.toc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/build/123/out00-PYZ.pyz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/build/123/out00-PYZ.toc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/build/123/warn123.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/build/SmartLogger/SmartLogger.exe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/build/SmartLogger/SmartLogger.exe.manifest" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/build/SmartLogger/enum34-1.1.4-py2.7.egg/EGG-INFO/PKG-INFO" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/build/SmartLogger/enum34-1.1.4-py2.7.egg/EGG-INFO/SOURCES.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/build/SmartLogger/enum34-1.1.4-py2.7.egg/EGG-INFO/dependency_links.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/build/SmartLogger/enum34-1.1.4-py2.7.egg/EGG-INFO/top_level.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/build/SmartLogger/enum34-1.1.4-py2.7.egg/EGG-INFO/zip-safe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/build/SmartLogger/enum34-1.1.4-py2.7.egg/enum/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/build/SmartLogger/enum34-1.1.4-py2.7.egg/enum/README" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/build/SmartLogger/enum34-1.1.4-py2.7.egg/enum/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/build/SmartLogger/enum34-1.1.4-py2.7.egg/enum/doc/enum.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/build/SmartLogger/enum34-1.1.4-py2.7.egg/enum/doc/enum.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/build/SmartLogger/enum34-1.1.4-py2.7.egg/enum/test.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/build/SmartLogger/out00-Analysis.toc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/build/SmartLogger/out00-COLLECT.toc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/build/SmartLogger/out00-EXE.toc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/build/SmartLogger/out00-PKG.pkg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/build/SmartLogger/out00-PKG.toc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/build/SmartLogger/out00-PYZ.pyz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/build/SmartLogger/out00-PYZ.toc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/build/SmartLogger/out00-Tree.toc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/build/SmartLogger/warnSmartLogger.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/123/123.exe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/123/123.exe.manifest" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/123/Conf/default.conf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/123/Conf/logging.conf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/123/ExeLog/exelog.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/123/Microsoft.VC90.CRT.manifest" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/123/_ctypes.pyd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/123/_hashlib.pyd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/123/_socket.pyd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/123/_ssl.pyd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/123/bz2.pyd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/123/msvcm90.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/123/msvcp90.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/123/msvcr90.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/123/python27.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/123/pywintypes27.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/123/select.pyd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/123/unicodedata.pyd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/123/win32api.pyd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/123/win32evtlog.pyd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/123/win32gui.pyd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/123/wx._controls_.pyd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/123/wx._core_.pyd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/123/wx._gdi_.pyd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/123/wx._misc_.pyd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/123/wx._windows_.pyd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/123/wxbase30u_net_vc90_x64.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/123/wxbase30u_vc90_x64.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/123/wxmsw30u_adv_vc90_x64.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/123/wxmsw30u_core_vc90_x64.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/123/wxmsw30u_html_vc90_x64.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/SmartLogger/Conf/default.conf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/SmartLogger/Conf/logging.conf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/SmartLogger/ExeLog/exelog.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/SmartLogger/Include/pyconfig.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/SmartLogger/Microsoft.VC90.CRT.manifest" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/SmartLogger/ProcLog/Zeus-192.168.17.1-20170504.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/SmartLogger/SmartLogger.exe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/SmartLogger/SmartLogger.exe.manifest" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/SmartLogger/_ctypes.pyd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/SmartLogger/_hashlib.pyd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/SmartLogger/_socket.pyd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/SmartLogger/_ssl.pyd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/SmartLogger/bz2.pyd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/SmartLogger/msvcm90.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/SmartLogger/msvcp90.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/SmartLogger/msvcr90.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/SmartLogger/psutil._psutil_windows.pyd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/SmartLogger/pyexpat.pyd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/SmartLogger/python27.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/SmartLogger/pywintypes27.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/SmartLogger/select.pyd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/SmartLogger/sl.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/SmartLogger/unicodedata.pyd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/SmartLogger/win32api.pyd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/SmartLogger/win32evtlog.pyd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/SmartLogger/win32file.pyd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/SmartLogger/win32gui.pyd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/SmartLogger/wx._controls_.pyd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/SmartLogger/wx._core_.pyd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/SmartLogger/wx._gdi_.pyd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/SmartLogger/wx._misc_.pyd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/SmartLogger/wx._windows_.pyd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/SmartLogger/wx._xrc.pyd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/SmartLogger/wxbase30u_net_vc90_x64.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/SmartLogger/wxbase30u_vc90_x64.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/SmartLogger/wxbase30u_xml_vc90_x64.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/SmartLogger/wxmsw30u_adv_vc90_x64.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/SmartLogger/wxmsw30u_core_vc90_x64.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/SmartLogger/wxmsw30u_html_vc90_x64.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/SmartLogger/wxmsw30u_xrc_vc90_x64.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/InstallProject/SmartLogger/SmartLogger/SmartLogger/Express/SingleImage/LogFiles/7-17-2017 04-59-29 上午.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/InstallProject/SmartLogger/SmartLogger/SmartLogger/Express/SingleImage/Reports/7-17-2017 04-59-39 上午.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/build/SL/enum34-1.1.4-py2.7.egg/EGG-INFO/PKG-INFO" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/build/SL/enum34-1.1.4-py2.7.egg/EGG-INFO/SOURCES.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/build/SL/enum34-1.1.4-py2.7.egg/EGG-INFO/dependency_links.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/build/SL/enum34-1.1.4-py2.7.egg/EGG-INFO/top_level.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/build/SL/enum34-1.1.4-py2.7.egg/EGG-INFO/zip-safe" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/build/SL/enum34-1.1.4-py2.7.egg/enum/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/build/SL/enum34-1.1.4-py2.7.egg/enum/README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/build/SL/enum34-1.1.4-py2.7.egg/enum/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/build/SL/enum34-1.1.4-py2.7.egg/enum/doc/enum.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/build/SL/enum34-1.1.4-py2.7.egg/enum/doc/enum.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/build/SL/enum34-1.1.4-py2.7.egg/enum/test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/build/SL/out00-Tree.toc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/SL/wxbase30u_net_vc90_x64.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/SL/wxbase30u_vc90_x64.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/SL/wxbase30u_xml_vc90_x64.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/SL/wxmsw30u_adv_vc90_x64.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/SL/wxmsw30u_core_vc90_x64.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/SL/wxmsw30u_html_vc90_x64.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/SL/wxmsw30u_xrc_vc90_x64.dll" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Coding/Decrypt.exe" afterPath="$PROJECT_DIR$/Coding/Decrypt.exe" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Coding/Encrypt.exe" afterPath="$PROJECT_DIR$/Coding/Encrypt.exe" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/InstallProject/SmartLogger/SmartLogger.v12.suo" afterPath="$PROJECT_DIR$/InstallProject/SmartLogger/SmartLogger.v12.suo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/InstallProject/SmartLogger/SmartLogger/SmartLogger/Express/SingleImage/DiskImages/DISK1/setup.exe" afterPath="$PROJECT_DIR$/InstallProject/SmartLogger/SmartLogger/SmartLogger/Express/SingleImage/DiskImages/DISK1/setup.exe" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartLogger/Src/build/SL/SL.exe" afterPath="$PROJECT_DIR$/SmartLogger/Src/build/SL/SL.exe" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartLogger/Src/build/SL/out00-PKG.pkg" afterPath="$PROJECT_DIR$/SmartLogger/Src/build/SL/out00-PKG.pkg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartLogger/Src/build/SL/out00-PYZ.pyz" afterPath="$PROJECT_DIR$/SmartLogger/Src/build/SL/out00-PYZ.pyz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/SL/SL.exe" afterPath="$PROJECT_DIR$/SmartLogger/Src/dist/SL/SL.exe" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/SL/_ctypes.pyd" afterPath="$PROJECT_DIR$/SmartLogger/Src/dist/SL/_ctypes.pyd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/SL/_hashlib.pyd" afterPath="$PROJECT_DIR$/SmartLogger/Src/dist/SL/_hashlib.pyd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/SL/_socket.pyd" afterPath="$PROJECT_DIR$/SmartLogger/Src/dist/SL/_socket.pyd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/SL/_ssl.pyd" afterPath="$PROJECT_DIR$/SmartLogger/Src/dist/SL/_ssl.pyd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/SL/bz2.pyd" afterPath="$PROJECT_DIR$/SmartLogger/Src/dist/SL/bz2.pyd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/SL/msvcm90.dll" afterPath="$PROJECT_DIR$/SmartLogger/Src/dist/SL/msvcm90.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/SL/msvcp90.dll" afterPath="$PROJECT_DIR$/SmartLogger/Src/dist/SL/msvcp90.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/SL/msvcr90.dll" afterPath="$PROJECT_DIR$/SmartLogger/Src/dist/SL/msvcr90.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/SL/psutil._psutil_windows.pyd" afterPath="$PROJECT_DIR$/SmartLogger/Src/dist/SL/psutil._psutil_windows.pyd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/SL/pyexpat.pyd" afterPath="$PROJECT_DIR$/SmartLogger/Src/dist/SL/pyexpat.pyd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/SL/python27.dll" afterPath="$PROJECT_DIR$/SmartLogger/Src/dist/SL/python27.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/SL/pywintypes27.dll" afterPath="$PROJECT_DIR$/SmartLogger/Src/dist/SL/pywintypes27.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/SL/select.pyd" afterPath="$PROJECT_DIR$/SmartLogger/Src/dist/SL/select.pyd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/SL/unicodedata.pyd" afterPath="$PROJECT_DIR$/SmartLogger/Src/dist/SL/unicodedata.pyd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/SL/win32api.pyd" afterPath="$PROJECT_DIR$/SmartLogger/Src/dist/SL/win32api.pyd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/SL/win32evtlog.pyd" afterPath="$PROJECT_DIR$/SmartLogger/Src/dist/SL/win32evtlog.pyd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/SL/win32file.pyd" afterPath="$PROJECT_DIR$/SmartLogger/Src/dist/SL/win32file.pyd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/SL/win32gui.pyd" afterPath="$PROJECT_DIR$/SmartLogger/Src/dist/SL/win32gui.pyd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/SL/wx._controls_.pyd" afterPath="$PROJECT_DIR$/SmartLogger/Src/dist/SL/wx._controls_.pyd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/SL/wx._core_.pyd" afterPath="$PROJECT_DIR$/SmartLogger/Src/dist/SL/wx._core_.pyd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/SL/wx._gdi_.pyd" afterPath="$PROJECT_DIR$/SmartLogger/Src/dist/SL/wx._gdi_.pyd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/SL/wx._misc_.pyd" afterPath="$PROJECT_DIR$/SmartLogger/Src/dist/SL/wx._misc_.pyd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/SL/wx._windows_.pyd" afterPath="$PROJECT_DIR$/SmartLogger/Src/dist/SL/wx._windows_.pyd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/SL/wx._xrc.pyd" afterPath="$PROJECT_DIR$/SmartLogger/Src/dist/SL/wx._xrc.pyd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/monitor.iml" afterPath="$PROJECT_DIR$/.idea/monitor.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartLogger/Src/Conf/default.conf" afterPath="$PROJECT_DIR$/SmartLogger/Src/Conf/default.conf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartLogger/Src/FTP.py" afterPath="$PROJECT_DIR$/SmartLogger/Src/FTP.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartLogger/Src/SettingFrame.py" afterPath="$PROJECT_DIR$/SmartLogger/Src/SettingFrame.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartLogger/Src/SmartLogger.py" afterPath="$PROJECT_DIR$/SmartLogger/Src/SmartLogger.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartLogger/Src/watchProcess.py" afterPath="$PROJECT_DIR$/SmartLogger/Src/watchProcess.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Coding/cipher.txt" afterPath="$PROJECT_DIR$/Coding/cipher.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Coding/clear.txt" afterPath="$PROJECT_DIR$/Coding/clear.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/InstallProject/SmartLogger/SmartLogger/SmartLogger.isl" afterPath="$PROJECT_DIR$/InstallProject/SmartLogger/SmartLogger/SmartLogger.isl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartLogger/Src/build/SL/SL.exe.manifest" afterPath="$PROJECT_DIR$/SmartLogger/Src/build/SL/SL.exe.manifest" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartLogger/Src/build/SL/out00-Analysis.toc" afterPath="$PROJECT_DIR$/SmartLogger/Src/build/SL/out00-Analysis.toc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartLogger/Src/build/SL/out00-COLLECT.toc" afterPath="$PROJECT_DIR$/SmartLogger/Src/build/SL/out00-COLLECT.toc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartLogger/Src/build/SL/out00-EXE.toc" afterPath="$PROJECT_DIR$/SmartLogger/Src/build/SL/out00-EXE.toc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartLogger/Src/build/SL/out00-PKG.toc" afterPath="$PROJECT_DIR$/SmartLogger/Src/build/SL/out00-PKG.toc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartLogger/Src/build/SL/out00-PYZ.toc" afterPath="$PROJECT_DIR$/SmartLogger/Src/build/SL/out00-PYZ.toc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartLogger/Src/build/SL/warnSL.txt" afterPath="$PROJECT_DIR$/SmartLogger/Src/build/SL/warnSL.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/SL/Include/pyconfig.h" afterPath="$PROJECT_DIR$/SmartLogger/Src/dist/SL/Include/pyconfig.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/SL/Microsoft.VC90.CRT.manifest" afterPath="$PROJECT_DIR$/SmartLogger/Src/dist/SL/Microsoft.VC90.CRT.manifest" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/SL/SL.bat" afterPath="$PROJECT_DIR$/SmartLogger/Src/dist/SL/SL.bat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartLogger/Src/dist/SL/SL.exe.manifest" afterPath="$PROJECT_DIR$/SmartLogger/Src/dist/SL/SL.exe.manifest" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -143,8 +96,8 @@
     <SUITE FILE_PATH="coverage/monitor$SettingFrame.coverage" NAME="SettingFrame Coverage Results" MODIFIED="1493141335285" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Src" />
     <SUITE FILE_PATH="coverage/monitor$123.coverage" NAME="123 Coverage Results" MODIFIED="1493888537174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SmartLogger/Src" />
     <SUITE FILE_PATH="coverage/monitor$Unittests_in_Listener_py.coverage" NAME="Unittests in Listener.py Coverage Results" MODIFIED="1493813698212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/monitor$Encrypt.coverage" NAME="Encrypt Coverage Results" MODIFIED="1500239537827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Coding" />
-    <SUITE FILE_PATH="coverage/monitor$SmartLogger.coverage" NAME="SmartLogger Coverage Results" MODIFIED="1500231107009" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SmartLogger/Src" />
+    <SUITE FILE_PATH="coverage/monitor$Encrypt.coverage" NAME="Encrypt Coverage Results" MODIFIED="1500359089850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Coding" />
+    <SUITE FILE_PATH="coverage/monitor$SmartLogger.coverage" NAME="SmartLogger Coverage Results" MODIFIED="1500360113053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SmartLogger/Src" />
     <SUITE FILE_PATH="coverage/monitor$Unittests_in_App_py.coverage" NAME="Unittests in App.py Coverage Results" MODIFIED="1492735718905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/monitor$Resolution.coverage" NAME="Resolution Coverage Results" MODIFIED="1493343894285" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Src" />
     <SUITE FILE_PATH="coverage/monitor$Listener.coverage" NAME="Listener Coverage Results" MODIFIED="1493338222136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Src" />
@@ -202,11 +155,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SmartLogger.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SmartLogger.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SmartLogger/Src/SmartLogger.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="23" />
+            <state relative-caret-position="112">
+              <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
               <folding>
                 <element signature="e#4052#8470#0" expanded="false" />
                 <element signature="e#8497#9513#0" expanded="false" />
@@ -216,10 +169,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Encrypt.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Encrypt.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Coding/Encrypt.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="446">
+            <state relative-caret-position="988">
               <caret line="52" column="65" lean-forward="false" selection-start-line="52" selection-start-column="65" selection-end-line="52" selection-end-column="65" />
               <folding />
             </state>
@@ -229,7 +182,7 @@
       <file leaf-file-name="Decrypt.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Coding/Decrypt.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
+            <state relative-caret-position="988">
               <caret line="52" column="106" lean-forward="false" selection-start-line="52" selection-start-column="11" selection-end-line="52" selection-end-column="106" />
               <folding />
             </state>
@@ -349,8 +302,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -411,11 +362,13 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="SearchEverywhereHistoryKey" value="ip&#9;null&#9;null&#10;ShellExecuteEx&#9;FILE&#9;file://C:/Python27/Lib/site-packages/win32comext/shell/demos/shellexecuteex.py&#10;shellexecuteex&#9;null&#9;null&#10;WM_END&#9;null&#9;null&#10;wndproc&#9;null&#9;null&#10;TranslateMessage&#9;null&#9;null&#10;getmessage&#9;null&#9;null&#10;pump&#9;null&#9;null&#10;DateP&#9;null&#9;null&#10;DatePi&#9;null&#9;null&#10;error_perm&#9;null&#9;null&#10;windowserror&#9;null&#9;null&#10;acquire&#9;null&#9;null&#10;start_new_thread&#9;null&#9;null&#10;thread&#9;null&#9;null&#10;Lock&#9;null&#9;null&#10;thread.py&#9;FILE&#9;file://C:/Python27/Lib/threading.py&#10;threading&#9;FILE&#9;file://C:/Python27/Lib/threading.py" />
   </component>
@@ -436,7 +389,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Decrypt">
+  <component name="RunManager" selected="Python.SmartLogger">
     <configuration default="false" name="SmartLogger" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -689,9 +642,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.Decrypt" />
+        <item index="0" class="java.lang.String" itemvalue="Python.SmartLogger" />
         <item index="1" class="java.lang.String" itemvalue="Python.Encrypt" />
-        <item index="2" class="java.lang.String" itemvalue="Python.SmartLogger" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Decrypt" />
         <item index="3" class="java.lang.String" itemvalue="Python.EncodeFTP" />
         <item index="4" class="java.lang.String" itemvalue="Python.FTP" />
       </list>
@@ -747,6 +700,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17862372" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -754,7 +708,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3270142" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3270142" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1057,21 +1011,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SmartLogger/Src/SmartLogger.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="23" />
-          <folding>
-            <element signature="e#4052#8470#0" expanded="false" />
-            <element signature="e#8497#9513#0" expanded="false" />
-            <marker date="1496237699163" expanded="true" signature="3835:4002" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Coding/Decrypt.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
+        <state relative-caret-position="988">
           <caret line="52" column="106" lean-forward="false" selection-start-line="52" selection-start-column="11" selection-end-line="52" selection-end-column="106" />
           <folding />
         </state>
@@ -1079,9 +1021,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Coding/Encrypt.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
+        <state relative-caret-position="988">
           <caret line="52" column="65" lean-forward="false" selection-start-line="52" selection-start-column="65" selection-end-line="52" selection-end-column="65" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SmartLogger/Src/SmartLogger.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+          <folding>
+            <element signature="e#4052#8470#0" expanded="false" />
+            <element signature="e#8497#9513#0" expanded="false" />
+            <marker date="1496237699163" expanded="true" signature="3835:4002" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

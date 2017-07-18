@@ -342,29 +342,29 @@
 		<col def="S0">ISDotNetInstallerArgsRollback</col>
 		<row><td>ISX_DEFAULTCOMPONENT</td><td>{58DD5FE7-D20F-4F36-8047-ECBA8C1EBDCA}</td><td>INSTALLDIR</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ISX_DEFAULTCOMPONENT1</td><td>{C27997F7-7694-4B83-B906-8BBA0121266D}</td><td>SMARTLOGGER</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>ISX_DEFAULTCOMPONENT10</td><td>{944690A0-479E-4C04-BA63-6D3B229B6516}</td><td>INSTALLDIR</td><td>258</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>ISX_DEFAULTCOMPONENT2</td><td>{B0F46A32-EB6C-4613-B21F-35570FA178F7}</td><td>CONF</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>ISX_DEFAULTCOMPONENT3</td><td>{37B6F8E7-ED20-4AED-8355-27B4D03E1427}</td><td>EXELOG</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>ISX_DEFAULTCOMPONENT4</td><td>{DFD46B19-5833-43EA-96C1-F7CB0E2A69CA}</td><td>INCLUDE</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT10</td><td>{944690A0-479E-4C04-BA63-6D3B229B6516}</td><td>INSTALLDIR</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT2</td><td>{E0A4612D-DC81-469B-BF96-5599F82F514D}</td><td>CONF</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT3</td><td>{C407D321-5744-4CB4-B451-3515EA090B16}</td><td>EXELOG</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT4</td><td>{D1AE5475-6EA2-4F9D-80CF-B5652073679F}</td><td>INCLUDE</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ISX_DEFAULTCOMPONENT5</td><td>{36AB27E2-63D2-4FE8-AA6F-4011477AC815}</td><td>INSTALLDIR</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ISX_DEFAULTCOMPONENT6</td><td>{476EE0BC-D8BE-4052-A371-2EB603BF58D3}</td><td>INSTALLDIR</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ISX_DEFAULTCOMPONENT7</td><td>{4CB45D2F-210B-4C5F-852E-D36BAB4606D3}</td><td>INSTALLDIR</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ISX_DEFAULTCOMPONENT8</td><td>{6C91FAE5-F76A-474E-BFBA-9FE8626E3EF2}</td><td>INSTALLDIR</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ISX_DEFAULTCOMPONENT9</td><td>{5511DB29-CF15-439D-A68A-8ED9E3300F55}</td><td>INSTALLDIR</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>SL.exe</td><td>{EF896FB5-3087-4687-B8BC-F9C591A8C389}</td><td>SMARTLOGGER</td><td>2</td><td/><td>sl.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>SmartLogger.exe</td><td>{D80EE6D3-A61D-4C73-86EC-171AB5225924}</td><td>SMARTLOGGER</td><td>2</td><td/><td>smartlogger.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>msvcm90.dll</td><td>{2D6415D0-ACE8-4375-A586-1B0A757A7F1F}</td><td>SMARTLOGGER</td><td>2</td><td/><td>msvcm90.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>msvcp90.dll</td><td>{7BA91E48-05BD-4F32-B0FD-BDAF1D2946F4}</td><td>SMARTLOGGER</td><td>2</td><td/><td>msvcp90.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>msvcr90.dll</td><td>{BF18C0A4-FDAB-4405-AC45-7C281EE2DB89}</td><td>SMARTLOGGER</td><td>2</td><td/><td>msvcr90.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>python27.dll</td><td>{512338EA-F80C-4E41-A849-BA07A77221F0}</td><td>SMARTLOGGER</td><td>2</td><td/><td>python27.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>pywintypes27.dll</td><td>{7FBC16EB-1FD8-40C2-9939-032506BCFE4E}</td><td>SMARTLOGGER</td><td>2</td><td/><td>pywintypes27.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>wxbase30u_net_vc90_x64.dll</td><td>{3FE21A16-5271-460B-94C3-320A4721DE14}</td><td>SMARTLOGGER</td><td>2</td><td/><td>wxbase30u_net_vc90_x64.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>wxbase30u_vc90_x64.dll</td><td>{15DFA0E6-5256-4070-8E25-67AAF0BAD121}</td><td>SMARTLOGGER</td><td>2</td><td/><td>wxbase30u_vc90_x64.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>wxbase30u_xml_vc90_x64.dll</td><td>{3BBAAE3B-FBBC-4345-BAA7-80DABBA795AD}</td><td>SMARTLOGGER</td><td>2</td><td/><td>wxbase30u_xml_vc90_x64.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>wxmsw30u_adv_vc90_x64.dll</td><td>{CE83AF94-A256-4C97-A3ED-898002B3D69B}</td><td>SMARTLOGGER</td><td>2</td><td/><td>wxmsw30u_adv_vc90_x64.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>wxmsw30u_core_vc90_x64.dll</td><td>{CAFBC3BD-AAE1-4469-8E7F-94A920F1AA9C}</td><td>SMARTLOGGER</td><td>2</td><td/><td>wxmsw30u_core_vc90_x64.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>wxmsw30u_html_vc90_x64.dll</td><td>{EE624EDD-BB36-4494-9AEC-6D5A8A3A0799}</td><td>SMARTLOGGER</td><td>2</td><td/><td>wxmsw30u_html_vc90_x64.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>wxmsw30u_xrc_vc90_x64.dll</td><td>{D328426F-04B0-4413-8417-04852CFFB350}</td><td>SMARTLOGGER</td><td>2</td><td/><td>wxmsw30u_xrc_vc90_x64.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>SL.exe</td><td>{D0CB8012-51D8-4A4B-9A4C-C0BEAB30BF93}</td><td>SMARTLOGGER</td><td>2</td><td/><td>sl.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>SmartLogger.exe</td><td>{AC5A4AFA-16BD-4857-B223-B7FD676B56FB}</td><td>SMARTLOGGER</td><td>2</td><td/><td>smartlogger.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>msvcm90.dll</td><td>{BA19E3C6-ED02-4690-8FD4-B1BDB5144F72}</td><td>SMARTLOGGER</td><td>2</td><td/><td>msvcm90.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>msvcp90.dll</td><td>{E5ABB131-4D04-4B16-A833-928B3EF9DBDD}</td><td>SMARTLOGGER</td><td>2</td><td/><td>msvcp90.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>msvcr90.dll</td><td>{9EDB6944-073E-4C59-B039-F8DC38371B38}</td><td>SMARTLOGGER</td><td>2</td><td/><td>msvcr90.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>python27.dll</td><td>{2B263BC1-F2E7-43A1-AF8F-408AEF3D92DB}</td><td>SMARTLOGGER</td><td>2</td><td/><td>python27.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>pywintypes27.dll</td><td>{8A1FAE69-01D3-4824-B5A2-F38E21F90F03}</td><td>SMARTLOGGER</td><td>2</td><td/><td>pywintypes27.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>wxbase30u_net_vc90.dll</td><td>{E5671B3B-1000-4D6D-A798-3477809C6BD9}</td><td>SMARTLOGGER</td><td>2</td><td/><td>wxbase30u_net_vc90.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>wxbase30u_vc90.dll</td><td>{602A6042-DA95-41B7-9A7F-3706CDB851DD}</td><td>SMARTLOGGER</td><td>2</td><td/><td>wxbase30u_vc90.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>wxbase30u_xml_vc90.dll</td><td>{72C628BA-5D91-4EA3-A531-9EE4B50F7E6A}</td><td>SMARTLOGGER</td><td>2</td><td/><td>wxbase30u_xml_vc90.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>wxmsw30u_adv_vc90.dll</td><td>{D64BA982-F61E-4195-8B17-7042F894097D}</td><td>SMARTLOGGER</td><td>2</td><td/><td>wxmsw30u_adv_vc90.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>wxmsw30u_core_vc90.dll</td><td>{62F89AAB-655A-4EE3-82EA-793E8D7E8D30}</td><td>SMARTLOGGER</td><td>2</td><td/><td>wxmsw30u_core_vc90.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>wxmsw30u_html_vc90.dll</td><td>{31742871-E5F6-4F15-B8A0-969FBC4FB660}</td><td>SMARTLOGGER</td><td>2</td><td/><td>wxmsw30u_html_vc90.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>wxmsw30u_xrc_vc90.dll</td><td>{3D3853B5-C9F0-41C0-8285-026FB5DF1DC5}</td><td>SMARTLOGGER</td><td>2</td><td/><td>wxmsw30u_xrc_vc90.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 	</table>
 
 	<table name="Condition">
@@ -1095,13 +1095,13 @@
 		<row><td>INSTALLDIR</td><td>msvcr90.dll</td></row>
 		<row><td>INSTALLDIR</td><td>python27.dll</td></row>
 		<row><td>INSTALLDIR</td><td>pywintypes27.dll</td></row>
-		<row><td>INSTALLDIR</td><td>wxbase30u_net_vc90_x64.dll</td></row>
-		<row><td>INSTALLDIR</td><td>wxbase30u_vc90_x64.dll</td></row>
-		<row><td>INSTALLDIR</td><td>wxbase30u_xml_vc90_x64.dll</td></row>
-		<row><td>INSTALLDIR</td><td>wxmsw30u_adv_vc90_x64.dll</td></row>
-		<row><td>INSTALLDIR</td><td>wxmsw30u_core_vc90_x64.dll</td></row>
-		<row><td>INSTALLDIR</td><td>wxmsw30u_html_vc90_x64.dll</td></row>
-		<row><td>INSTALLDIR</td><td>wxmsw30u_xrc_vc90_x64.dll</td></row>
+		<row><td>INSTALLDIR</td><td>wxbase30u_net_vc90.dll</td></row>
+		<row><td>INSTALLDIR</td><td>wxbase30u_vc90.dll</td></row>
+		<row><td>INSTALLDIR</td><td>wxbase30u_xml_vc90.dll</td></row>
+		<row><td>INSTALLDIR</td><td>wxmsw30u_adv_vc90.dll</td></row>
+		<row><td>INSTALLDIR</td><td>wxmsw30u_core_vc90.dll</td></row>
+		<row><td>INSTALLDIR</td><td>wxmsw30u_html_vc90.dll</td></row>
+		<row><td>INSTALLDIR</td><td>wxmsw30u_xrc_vc90.dll</td></row>
 		<row><td>SMARTLOGGER</td><td>ISX_DEFAULTCOMPONENT1</td></row>
 		<row><td>SMARTLOGGER</td><td>SL.exe</td></row>
 		<row><td>SMARTLOGGER</td><td>SmartLogger.exe</td></row>
@@ -1110,13 +1110,13 @@
 		<row><td>SMARTLOGGER</td><td>msvcr90.dll</td></row>
 		<row><td>SMARTLOGGER</td><td>python27.dll</td></row>
 		<row><td>SMARTLOGGER</td><td>pywintypes27.dll</td></row>
-		<row><td>SMARTLOGGER</td><td>wxbase30u_net_vc90_x64.dll</td></row>
-		<row><td>SMARTLOGGER</td><td>wxbase30u_vc90_x64.dll</td></row>
-		<row><td>SMARTLOGGER</td><td>wxbase30u_xml_vc90_x64.dll</td></row>
-		<row><td>SMARTLOGGER</td><td>wxmsw30u_adv_vc90_x64.dll</td></row>
-		<row><td>SMARTLOGGER</td><td>wxmsw30u_core_vc90_x64.dll</td></row>
-		<row><td>SMARTLOGGER</td><td>wxmsw30u_html_vc90_x64.dll</td></row>
-		<row><td>SMARTLOGGER</td><td>wxmsw30u_xrc_vc90_x64.dll</td></row>
+		<row><td>SMARTLOGGER</td><td>wxbase30u_net_vc90.dll</td></row>
+		<row><td>SMARTLOGGER</td><td>wxbase30u_vc90.dll</td></row>
+		<row><td>SMARTLOGGER</td><td>wxbase30u_xml_vc90.dll</td></row>
+		<row><td>SMARTLOGGER</td><td>wxmsw30u_adv_vc90.dll</td></row>
+		<row><td>SMARTLOGGER</td><td>wxmsw30u_core_vc90.dll</td></row>
+		<row><td>SMARTLOGGER</td><td>wxmsw30u_html_vc90.dll</td></row>
+		<row><td>SMARTLOGGER</td><td>wxmsw30u_xrc_vc90.dll</td></row>
 	</table>
 
 	<table name="CustomAction">
@@ -1953,13 +1953,13 @@
 		<row><td>AlwaysInstall</td><td>msvcr90.dll</td></row>
 		<row><td>AlwaysInstall</td><td>python27.dll</td></row>
 		<row><td>AlwaysInstall</td><td>pywintypes27.dll</td></row>
-		<row><td>AlwaysInstall</td><td>wxbase30u_net_vc90_x64.dll</td></row>
-		<row><td>AlwaysInstall</td><td>wxbase30u_vc90_x64.dll</td></row>
-		<row><td>AlwaysInstall</td><td>wxbase30u_xml_vc90_x64.dll</td></row>
-		<row><td>AlwaysInstall</td><td>wxmsw30u_adv_vc90_x64.dll</td></row>
-		<row><td>AlwaysInstall</td><td>wxmsw30u_core_vc90_x64.dll</td></row>
-		<row><td>AlwaysInstall</td><td>wxmsw30u_html_vc90_x64.dll</td></row>
-		<row><td>AlwaysInstall</td><td>wxmsw30u_xrc_vc90_x64.dll</td></row>
+		<row><td>AlwaysInstall</td><td>wxbase30u_net_vc90.dll</td></row>
+		<row><td>AlwaysInstall</td><td>wxbase30u_vc90.dll</td></row>
+		<row><td>AlwaysInstall</td><td>wxbase30u_xml_vc90.dll</td></row>
+		<row><td>AlwaysInstall</td><td>wxmsw30u_adv_vc90.dll</td></row>
+		<row><td>AlwaysInstall</td><td>wxmsw30u_core_vc90.dll</td></row>
+		<row><td>AlwaysInstall</td><td>wxmsw30u_html_vc90.dll</td></row>
+		<row><td>AlwaysInstall</td><td>wxmsw30u_xrc_vc90.dll</td></row>
 	</table>
 
 	<table name="File">
@@ -2007,13 +2007,13 @@
 		<row><td>wx._misc_.pyd</td><td>ISX_DEFAULTCOMPONENT1</td><td>WX_MIS~1.PYD|wx._misc_.pyd</td><td>0</td><td/><td/><td/><td>1</td><td>F:\monitor\SmartLogger\Src\dist\SL\wx._misc_.pyd</td><td>1</td><td/></row>
 		<row><td>wx._windows_.pyd</td><td>ISX_DEFAULTCOMPONENT1</td><td>WX_WIN~1.PYD|wx._windows_.pyd</td><td>0</td><td/><td/><td/><td>1</td><td>F:\monitor\SmartLogger\Src\dist\SL\wx._windows_.pyd</td><td>1</td><td/></row>
 		<row><td>wx._xrc.pyd</td><td>ISX_DEFAULTCOMPONENT1</td><td>WX_XRC~1.PYD|wx._xrc.pyd</td><td>0</td><td/><td/><td/><td>1</td><td>F:\monitor\SmartLogger\Src\dist\SL\wx._xrc.pyd</td><td>1</td><td/></row>
-		<row><td>wxbase30u_net_vc90_x64.dll</td><td>wxbase30u_net_vc90_x64.dll</td><td>WXBASE~1.DLL|wxbase30u_net_vc90_x64.dll</td><td>0</td><td/><td/><td/><td>1</td><td>F:\monitor\SmartLogger\Src\dist\SL\wxbase30u_net_vc90_x64.dll</td><td>1</td><td/></row>
-		<row><td>wxbase30u_vc90_x64.dll</td><td>wxbase30u_vc90_x64.dll</td><td>WXBASE~1.DLL|wxbase30u_vc90_x64.dll</td><td>0</td><td/><td/><td/><td>1</td><td>F:\monitor\SmartLogger\Src\dist\SL\wxbase30u_vc90_x64.dll</td><td>1</td><td/></row>
-		<row><td>wxbase30u_xml_vc90_x64.dll</td><td>wxbase30u_xml_vc90_x64.dll</td><td>WXBASE~1.DLL|wxbase30u_xml_vc90_x64.dll</td><td>0</td><td/><td/><td/><td>1</td><td>F:\monitor\SmartLogger\Src\dist\SL\wxbase30u_xml_vc90_x64.dll</td><td>1</td><td/></row>
-		<row><td>wxmsw30u_adv_vc90_x64.dll</td><td>wxmsw30u_adv_vc90_x64.dll</td><td>WXMSW3~1.DLL|wxmsw30u_adv_vc90_x64.dll</td><td>0</td><td/><td/><td/><td>1</td><td>F:\monitor\SmartLogger\Src\dist\SL\wxmsw30u_adv_vc90_x64.dll</td><td>1</td><td/></row>
-		<row><td>wxmsw30u_core_vc90_x64.dll</td><td>wxmsw30u_core_vc90_x64.dll</td><td>WXMSW3~1.DLL|wxmsw30u_core_vc90_x64.dll</td><td>0</td><td/><td/><td/><td>1</td><td>F:\monitor\SmartLogger\Src\dist\SL\wxmsw30u_core_vc90_x64.dll</td><td>1</td><td/></row>
-		<row><td>wxmsw30u_html_vc90_x64.dll</td><td>wxmsw30u_html_vc90_x64.dll</td><td>WXMSW3~1.DLL|wxmsw30u_html_vc90_x64.dll</td><td>0</td><td/><td/><td/><td>1</td><td>F:\monitor\SmartLogger\Src\dist\SL\wxmsw30u_html_vc90_x64.dll</td><td>1</td><td/></row>
-		<row><td>wxmsw30u_xrc_vc90_x64.dll</td><td>wxmsw30u_xrc_vc90_x64.dll</td><td>WXMSW3~1.DLL|wxmsw30u_xrc_vc90_x64.dll</td><td>0</td><td/><td/><td/><td>1</td><td>F:\monitor\SmartLogger\Src\dist\SL\wxmsw30u_xrc_vc90_x64.dll</td><td>1</td><td/></row>
+		<row><td>wxbase30u_net_vc90.dll</td><td>wxbase30u_net_vc90.dll</td><td>WXBASE~1.DLL|wxbase30u_net_vc90.dll</td><td>0</td><td/><td/><td/><td>1</td><td>F:\monitor\SmartLogger\Src\dist\SL\wxbase30u_net_vc90.dll</td><td>1</td><td/></row>
+		<row><td>wxbase30u_vc90.dll</td><td>wxbase30u_vc90.dll</td><td>WXBASE~1.DLL|wxbase30u_vc90.dll</td><td>0</td><td/><td/><td/><td>1</td><td>F:\monitor\SmartLogger\Src\dist\SL\wxbase30u_vc90.dll</td><td>1</td><td/></row>
+		<row><td>wxbase30u_xml_vc90.dll</td><td>wxbase30u_xml_vc90.dll</td><td>WXBASE~1.DLL|wxbase30u_xml_vc90.dll</td><td>0</td><td/><td/><td/><td>1</td><td>F:\monitor\SmartLogger\Src\dist\SL\wxbase30u_xml_vc90.dll</td><td>1</td><td/></row>
+		<row><td>wxmsw30u_adv_vc90.dll</td><td>wxmsw30u_adv_vc90.dll</td><td>WXMSW3~1.DLL|wxmsw30u_adv_vc90.dll</td><td>0</td><td/><td/><td/><td>1</td><td>F:\monitor\SmartLogger\Src\dist\SL\wxmsw30u_adv_vc90.dll</td><td>1</td><td/></row>
+		<row><td>wxmsw30u_core_vc90.dll</td><td>wxmsw30u_core_vc90.dll</td><td>WXMSW3~1.DLL|wxmsw30u_core_vc90.dll</td><td>0</td><td/><td/><td/><td>1</td><td>F:\monitor\SmartLogger\Src\dist\SL\wxmsw30u_core_vc90.dll</td><td>1</td><td/></row>
+		<row><td>wxmsw30u_html_vc90.dll</td><td>wxmsw30u_html_vc90.dll</td><td>WXMSW3~1.DLL|wxmsw30u_html_vc90.dll</td><td>0</td><td/><td/><td/><td>1</td><td>F:\monitor\SmartLogger\Src\dist\SL\wxmsw30u_html_vc90.dll</td><td>1</td><td/></row>
+		<row><td>wxmsw30u_xrc_vc90.dll</td><td>wxmsw30u_xrc_vc90.dll</td><td>WXMSW3~1.DLL|wxmsw30u_xrc_vc90.dll</td><td>0</td><td/><td/><td/><td>1</td><td>F:\monitor\SmartLogger\Src\dist\SL\wxmsw30u_xrc_vc90.dll</td><td>1</td><td/></row>
 	</table>
 
 	<table name="FileSFPCatalog">
@@ -2160,28 +2160,28 @@
 		<row><td>ISX_DEFAULTCOMPONENT</td><td/><td/><td>_549F23CE_452E_4C26_BEDE_21317CFA3F88_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ISX_DEFAULTCOMPONENT1</td><td/><td/><td>_BBAB452C_13DF_45D3_AFD1_C890EA07C5DE_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ISX_DEFAULTCOMPONENT10</td><td/><td/><td>_D12BF870_8CC7_403F_ADCA_1ABB51F56F8E_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>ISX_DEFAULTCOMPONENT2</td><td/><td/><td>_2F377ACA_7070_4E1B_9814_BB4F75CFEC1A_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>ISX_DEFAULTCOMPONENT3</td><td/><td/><td>_A6E2CF49_3E08_4869_9C62_B05F2E970A3D_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>ISX_DEFAULTCOMPONENT4</td><td/><td/><td>_8A01D9D0_D147_4DD5_B417_5A7F2D8D062B_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT2</td><td/><td/><td>_47349970_C6A3_4B91_8666_38941ECB735C_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT3</td><td/><td/><td>_EE6918D6_9796_4DCC_9413_8B3A8C2A73F4_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT4</td><td/><td/><td>_BCBF6071_FCC9_4021_8955_2572C0EBD0DF_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ISX_DEFAULTCOMPONENT5</td><td/><td/><td>_3CB64D29_D7BB_4809_B206_86D280294C17_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ISX_DEFAULTCOMPONENT6</td><td/><td/><td>_296C3B1E_DFD2_4A0E_94EB_164C3F190736_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ISX_DEFAULTCOMPONENT7</td><td/><td/><td>_66C3654E_5827_4050_B8B0_67547EFE1F0B_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ISX_DEFAULTCOMPONENT8</td><td/><td/><td>_3D9A9EED_64F6_4FCF_A540_F04AFECF46E9_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ISX_DEFAULTCOMPONENT9</td><td/><td/><td>_6021EDE0_A762_49AE_81B7_AAEE84F52BD7_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>SL.exe</td><td/><td/><td>_36D05B0A_6A4C_440B_B857_DA337FB9C9F7_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>SmartLogger.exe</td><td/><td/><td>_5DA7E918_693E_4258_846D_4828AC97A53F_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>msvcm90.dll</td><td/><td/><td>_019CA5DC_4AE1_4DC7_A6C3_0FBED5E75776_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>msvcp90.dll</td><td/><td/><td>_121CA4F7_0726_4BD2_8F5D_9E88E9074891_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>msvcr90.dll</td><td/><td/><td>_A66A3150_FA78_45DC_AF54_A3152B510237_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>python27.dll</td><td/><td/><td>_14CD142B_5A6E_4F16_A20D_CB9B0AE33831_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>pywintypes27.dll</td><td/><td/><td>_686AE98A_FE60_4444_A77A_CC1637BFA5CF_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>wxbase30u_net_vc90_x64.dll</td><td/><td/><td>_ABBF7498_DCE7_4542_AB91_96A103DE67E8_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>wxbase30u_vc90_x64.dll</td><td/><td/><td>_E9B738A4_8AC0_4442_81CA_F0EE7AA067E9_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>wxbase30u_xml_vc90_x64.dll</td><td/><td/><td>_EF185ABA_8620_4626_BC5C_6FA1B2BE2CCA_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>wxmsw30u_adv_vc90_x64.dll</td><td/><td/><td>_0EC40438_3230_43ED_8381_294DFA199A02_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>wxmsw30u_core_vc90_x64.dll</td><td/><td/><td>_9C50AF38_C5A6_4C49_9BFD_0F2944662948_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>wxmsw30u_html_vc90_x64.dll</td><td/><td/><td>_0784A01F_4E6E_4BAF_A575_74EDD203EBA7_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>wxmsw30u_xrc_vc90_x64.dll</td><td/><td/><td>_BEC92D03_E3C5_45C0_A361_C3CEEF1A145C_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>SL.exe</td><td/><td/><td>_90F2FA0D_0B98_43EA_AFA9_3B62C04DFE01_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>SmartLogger.exe</td><td/><td/><td>_0107B37F_18D5_4E1D_9792_43739BB905E0_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>msvcm90.dll</td><td/><td/><td>_B8F52E14_AAE9_4E53_B466_9E09BB318534_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>msvcp90.dll</td><td/><td/><td>_DDA5E6DD_1FB6_4CCE_8643_A64493482C22_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>msvcr90.dll</td><td/><td/><td>_0DBF32BD_43E2_446C_A6AE_A51684826D02_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>python27.dll</td><td/><td/><td>_C6866F98_55D1_46D7_8765_211D8066C90A_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>pywintypes27.dll</td><td/><td/><td>_76CF1F62_A21D_49CE_9187_AFF0B35AF90A_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>wxbase30u_net_vc90.dll</td><td/><td/><td>_B14507AE_3274_4553_B7EB_6460376F9064_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>wxbase30u_vc90.dll</td><td/><td/><td>_F29EB357_0EE4_4169_8859_4A0FC63D19DB_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>wxbase30u_xml_vc90.dll</td><td/><td/><td>_9EE235B8_0A6D_426A_AD14_5F1316EAEF74_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>wxmsw30u_adv_vc90.dll</td><td/><td/><td>_955AE7A4_FC43_479A_BB5E_A685C9FF80CB_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>wxmsw30u_core_vc90.dll</td><td/><td/><td>_8E78A4D8_59F3_4147_B1DC_5C49AAD9BDEF_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>wxmsw30u_html_vc90.dll</td><td/><td/><td>_4DD86D66_7E51_4594_9039_F1565E06F0C8_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>wxmsw30u_xrc_vc90.dll</td><td/><td/><td>_142624A1_E9A2_4B5D_8304_D4C180A2F7E4_FILTER</td><td/><td/><td/><td/></row>
 	</table>
 
 	<table name="ISCustomActionReference">
@@ -4510,9 +4510,9 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>PROGMSG_IIS_ROLLBACKVROOTS</td><td>##IDS_PROGMSG_IIS_ROLLBACKVROOTS##</td><td/></row>
 		<row><td>PROGMSG_IIS_ROLLBACKWEBSERVICEEXTENSIONS</td><td>##IDS_PROGMSG_IIS_ROLLBACKWEBSERVICEEXTENSIONS##</td><td/></row>
 		<row><td>PROGRAMFILETOLAUNCHATEND</td><td>[INSTALLDIR]SmartLogger\SmartLogger.exe</td><td/></row>
-		<row><td>ProductCode</td><td>{A43EF28F-D5E7-4627-81AF-955B9E087A0D}</td><td/></row>
+		<row><td>ProductCode</td><td>{256F2768-B127-4230-AD0D-C61EBCDBB404}</td><td/></row>
 		<row><td>ProductName</td><td>SmartLogger</td><td/></row>
-		<row><td>ProductVersion</td><td>1.04.0000</td><td/></row>
+		<row><td>ProductVersion</td><td>1.05.0000</td><td/></row>
 		<row><td>ProgressType0</td><td>install</td><td/></row>
 		<row><td>ProgressType1</td><td>Installing</td><td/></row>
 		<row><td>ProgressType2</td><td>installed</td><td/></row>

@@ -1,0 +1,21 @@
+[INFO][2017-07-18 14:41:55] 保存设置到文件...
+[WARNING][2017-07-18 14:41:55] 初始化出错， 出错信息：Traceback (most recent call last):
+  File "F:/monitor/SmartLogger/Src/SmartLogger.py", line 214, in OnInit
+    key = win32api.RegOpenKeyEx(win32con.HKEY_LOCAL_MACHINE, 'Software\\SmartLogger', 0, win32con.KEY_ALL_ACCESS)
+error: (2, 'RegOpenKeyEx', '\xcf\xb5\xcd\xb3\xd5\xd2\xb2\xbb\xb5\xbd\xd6\xb8\xb6\xa8\xb5\xc4\xce\xc4\xbc\xfe\xa1\xa3')
+
+[INFO][2017-07-18 14:41:55] 文件名改变，上传之前文件
+[INFO][2017-07-18 14:41:55] 扫描本地日志文件夹:F:\monitor\SmartLogger\Src\ProcLog...
+
+[INFO][2017-07-18 14:41:55] 共找到1个待上传文件
+
+[INFO][2017-07-18 14:41:55] FTP连接成功！
+
+[INFO][2017-07-18 14:41:55] FTP登录成功！
+
+[INFO][2017-07-18 14:41:55] 正在上传：Zeus-172.31.105.255-20170718.log...
+
+[INFO][2017-07-18 14:41:55] Zeus-172.31.105.255-20170718.log上传成功!(1/1)
+
+[INFO][2017-07-18 14:41:55] 上传完成！成功：1个， 失败：0个
+

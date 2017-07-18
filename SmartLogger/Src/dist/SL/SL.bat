@@ -9,12 +9,9 @@ goto modifyAgent
 :modifyAgent
 ::如下的修改操作主要是修改xml添加run directory，其中str1就是要添加的内容，添加在带有"Command"字符串行的后面一行
 set "str1=^<WorkingDirectory^>%~dsp0^<^/WorkingDirectory^>"
-set "str2=^<ExecutionTimeLimit^>PT0S^<^/ExecutionTimeLimit^>"
 for /f "delims=!" %%i in ('type c:\SLTMP.xml') do (
-echo "%%i"|findstr "Duration" >nul||echo "%%i"|findstr "WaitTimeout" >nul|| echo %%i>>c:\SLTMPN.xml
-echo "%%i"|findstr "MultipleInstancesPolicy" >nul&& echo %str2%>>c:\SLTMPN.xml
-echo "%%i"|findstr "Command" >nul&& echo %str1%>>c:\SLTMPN.xml
-)
+echo %%i >> c:\SLTMPN.xml
+echo "%%i"|findstr "Command" >nul&&echo %str1%>>c:\SLTMPN.xml)
 goto import
 
 ::修改完成后就可以覆盖导入了
