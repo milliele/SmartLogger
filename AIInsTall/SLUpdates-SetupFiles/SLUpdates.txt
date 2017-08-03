@@ -1,0 +1,13 @@
+;aiu;
+
+[1.0.1]
+Name = SmartLogger
+NoGUICommandLineSwitch = /exenoui /qn
+ProductVersion = 1.0.1.0
+URL = http://211.159.154.123/setup/SmartLogger-Setup-1.0.1.exe
+Size = 13188379
+MD5 = 95d89791d9ad231ef602acb6bd6ed696
+ServerFileName = SmartLogger-Setup-1.0.1.exe
+Flags = SilentInstall|NoCache|Advertises
+RegistryKey = HKUD\Software\MiDuICT\SmartLogger\Version
+Version = 1.0.1.0
