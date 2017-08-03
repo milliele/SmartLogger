@@ -95,8 +95,8 @@ class TaskBarIcon(wx.TaskBarIcon):
         # ***************************** FTP ********************
 
         # ***************************** 选项设置 ********************
-        # item = menu.Append(wx.NewId(), u'选项')
-        # self.Bind(wx.EVT_MENU, self.OnSetting, item)
+        item = menu.Append(wx.NewId(), u'选项')
+        self.Bind(wx.EVT_MENU, self.OnSetting, item)
         # ***************************** 选项设置 ********************
 
         # quit = menu.Append(wx.ID_EXIT, u"退出", u"退出程序")
@@ -236,5 +236,8 @@ class MyApp(wx.App):
 
 
 if __name__ == '__main__':
+    import sys
+    reload(sys)
+    sys.setdefaultencoding('utf8')
     app = MyApp()
     app.MainLoop()

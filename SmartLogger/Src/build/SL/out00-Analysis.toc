@@ -516,6 +516,7 @@
   ('watchProcess',
    'F:\\monitor\\SmartLogger\\Src\\watchProcess.py',
    'PYMODULE'),
+  ('Encrypt', 'F:\\monitor\\SmartLogger\\Src\\Encrypt.py', 'PYMODULE'),
   ('RWLock', 'F:\\monitor\\SmartLogger\\Src\\RWLock.py', 'PYMODULE'),
   ('Queue', 'C:\\Python27-32\\lib\\Queue.py', 'PYMODULE'),
   ('psutil',

@@ -41,13 +41,4 @@ def decrypt(key, s):
         return "failed"
 
 if __name__ == '__main__':
-    key = 14
-    usr = raw_input("Please enter user name: ")
-    pwd = raw_input("Please enter password: ")
-    c_usr = encrypt(key, usr)
-    c_pwd = encrypt(key, pwd)
-    import os
-    f = open("cipher.txt","w")
-    f.write(c_usr+os.linesep+c_pwd)
-    f.close()
-    print "Encyption Finished. Have written into <cipher.txt>. First line: user name, second line: password"
+    pass

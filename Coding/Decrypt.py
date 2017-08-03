@@ -40,14 +40,29 @@ def decrypt(key, s):
     except:
         return "failed"
 
+def winFile_write(filename, content):
+    import win32file, win32con
+    # Open the file for writing.
+    handle = win32file.CreateFile(filename,
+                                  win32file.GENERIC_WRITE,
+                                  0,
+                                  None,
+                                  win32con.CREATE_ALWAYS,
+                                  win32file.FILE_ATTRIBUTE_HIDDEN,
+                                  None)
+    win32file.WriteFile(handle, content)
+    handle.Close()
+
+def winFile_read(filename):
+    # Open it for reading.
+    import win32file, win32con
+    handle = win32file.CreateFile(filename, win32file.GENERIC_READ, 0, None, win32con.OPEN_EXISTING, win32file.FILE_ATTRIBUTE_HIDDEN, None)
+    rc, data = win32file.ReadFile(handle, 1000000)
+    handle.Close()
+    print decrypt(19, data)
+    return data
+
 if __name__ == '__main__':
-    key = 14
-    usr = raw_input("Please enter cipher user name: ")
-    pwd = raw_input("Please enter cipher password: ")
-    c_usr = decrypt(key, usr)
-    c_pwd = decrypt(key, pwd)
-    import os
-    f = open("clear.txt","w")
-    f.write(c_usr+os.linesep+c_pwd)
-    f.close()
-    print "Decyption Finished. Have written into <clear.txt>. First line: user name, second line: password"
+    winFile_write('123/1.txt', "IGBDGGAGBGBDJCDDBDKGNHGHBDPDDDBDDGCHHGLHBDJCDDBDBDPDDDBDLHMHAGHGBDJCDDBDBCCCCCNDCCGCKCNDCCGCHCNDCCBCACBDPDDDBDDGEGHHBDJCDDBDOFKHDFHFGGBCDCCCECBDPDDDBDDGMHBGHGBDJCDDBCCCOG")
+    winFile_read('123/1.txt')
+

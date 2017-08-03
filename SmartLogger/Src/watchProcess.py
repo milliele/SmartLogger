@@ -16,45 +16,6 @@ import FTP
 import threading
 import json
 
-def encrypt(key, s):
-    b = bytearray(str(s).encode("gbk"))
-    n = len(b)  # 求出 b 的字节数
-    c = bytearray(n * 2)
-    j = 0
-    for i in range(0, n):
-        b1 = b[i]
-        b2 = b1 ^ key  # b1 = b2^ key
-        c1 = b2 % 16
-        c2 = b2 // 16  # b2 = c2*16 + c1
-        c1 = c1 + 65
-        c2 = c2 + 65  # c1,c2都是0~15之间的数,加上65就变成了A-P 的字符的编码
-        c[j] = c1
-        c[j + 1] = c2
-        j = j + 2
-    return c.decode("gbk")
-
-def decrypt(key, s):
-    c = bytearray(str(s).encode("gbk"))
-    n = len(c)  # 计算 b 的字节数
-    if n % 2 != 0:
-        return ""
-    n = n // 2
-    b = bytearray(n)
-    j = 0
-    for i in range(0, n):
-        c1 = c[j]
-        c2 = c[j + 1]
-        j = j + 2
-        c1 = c1 - 65
-        c2 = c2 - 65
-        b2 = c2 * 16 + c1
-        b1 = b2 ^ key
-        b[i] = b1
-    try:
-        return b.decode("gbk")
-    except:
-        return "failed"
-
 def getmyip():
     import socket
     import re
@@ -94,10 +55,8 @@ class Loop(threading.Thread):
                 settings = json.load(open('Conf/default.conf', 'r'))
                 break
             except ValueError,e:
-                Logger.logger.warning("Reading watchProcess confugiration: " + repr(e)+ "[Returned to default setting]")
-                fobj = open('Conf/default.conf', 'w')
-                fobj.write('{"ftp": {"usr": "HHAGLG", "path": "", "host": "211.159.154.123", "pwd": "DEHGOEKELHMDODPDJD", "port": 21}, "onshut": true, "ip": "", "interval": 30, "localpath": "ProcLog", "machine": "", "last_date": ""}')
-                fobj.close()
+                Logger.logger.error("Reading watchProcess confugiration: " + repr(e))
+
                 continue
         if 'localpath' not in settings:
             settings['localpath'] = ''
@@ -105,13 +64,20 @@ class Loop(threading.Thread):
         if not ('interval' in settings and settings['interval'] != ''):
             settings['interval'] = 5
         # 获取FTP设置
-        if 'ftp' not in settings: settings['ftp']= {'host':'localhost',
-                   'port': 21,
-                   'path':'',
-                   'usr':'HHAGLG',
-                   'pwd':'DEHGOEKELHMDODPDJD'}
-        settings['ftp']['usr'] = decrypt(14, settings['ftp']['usr'])
-        settings['ftp']['pwd'] = decrypt(14, settings['ftp']['pwd'])
+        if not os.path.exists('Conf/ftp.conf'):
+            Logger.logger.error("FTP Configuration file not found!")
+        while True:
+            try:
+                tmpf = open('Conf/ftp.conf', 'r')
+                import Encrypt
+                tmpstr = Encrypt.decrypt(19, tmpf.read())
+                settings['ftp'] = json.loads(tmpstr)
+                tmpf.close()
+                break
+            except ValueError, e:
+                import traceback
+                Logger.logger.error("Reading ftp confugiration: " + traceback.format_exc(e))
+                continue
         if 'onshut' not in settings: settings['onshut'] = True
         # 获取最后日期
         if 'last_date' not in settings:
@@ -122,18 +88,17 @@ class Loop(threading.Thread):
 
     def setconf(self):
         Logger.logger.info(u'保存设置到文件...')
-        import copy
-        tmp = copy.deepcopy(self.GetSetting('ftp'))
-        tmp['usr'] = encrypt(14, tmp['usr'])
-        tmp['pwd'] = encrypt(14, tmp['pwd'])
         settings = {'machine': self.GetSetting('machine'),
                     'ip': self.GetSetting('ip'),
                     'interval': self.GetSetting('interval'),
                     'localpath': self.GetSetting('localpath'),
-                    'ftp':tmp,
                     'last_date': self.GetSetting('last_date'),
                     'onshut':self.GetSetting('onshut')}
-        json.dump(settings, open('Conf/default.conf', 'w'))
+        import Encrypt
+        tstr = json.dumps(self.GetSetting('ftp'))
+        Encrypt.winFile_write('Conf/ftp.conf', Encrypt.encrypt(19, tstr))
+        tstr = json.dumps(settings)
+        Encrypt.winFile_write('Conf/default.conf', tstr)
 
     def ChangeSetting(self, key, value):
         self.setting_lock.acquire_write()
