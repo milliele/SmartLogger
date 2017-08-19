@@ -33,8 +33,8 @@
    'BINARY')],
  [],
  False,
- False,
- 1500443717L,
+ True,
+ 1503130514L,
  [('runw.exe',
    'C:\\Python27-32\\Lib\\site-packages\\PyInstaller\\bootloader\\Windows-32bit\\runw.exe',
    'EXECUTABLE')])

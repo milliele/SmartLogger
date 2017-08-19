@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<DOCUMENT Type="Advanced Installer" CreateVersion="14.0.2" version="14.0.2" Modules="update" RootPath="." Language="en" Id="{4827C87D-4488-49D4-8D14-83D550118579}">
+<DOCUMENT Type="Advanced Installer" CreateVersion="14.0.2" version="14.0.2" Modules="update" RootPath="." Language="en" Id="{16628075-261D-4426-B574-2EF9CBE60228}">
   <COMPONENT cid="caphyon.advinst.msicomp.ProjectOptionsComponent">
     <ROW Name="HiddenItems" Value="TilesComponent"/>
   </COMPONENT>
@@ -8,16 +8,16 @@
     <ROW Path="&lt;AI_DICTS&gt;aiu-ue_en.ail"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.UpdaterEditorComponent">
-    <ROW Section="1.0.1" Key="Name" Value="SmartLogger"/>
-    <ROW Section="1.0.1" Key="NoGUICommandLineSwitch" Value="/exenoui /qn"/>
-    <ROW Section="1.0.1" Key="ProductVersion" Value="1.0.1.0"/>
-    <ROW Section="1.0.1" Key="URL" Value="http://211.159.154.123/setup/SmartLogger-Setup-1.0.1.exe"/>
-    <ROW Section="1.0.1" Key="Size" Value="SmartLogger-SetupFiles\SmartLogger-Setup-1.0.1.exe"/>
-    <ROW Section="1.0.1" Key="MD5" Value="SmartLogger-SetupFiles\SmartLogger-Setup-1.0.1.exe"/>
-    <ROW Section="1.0.1" Key="ServerFileName" Value="SmartLogger-Setup-1.0.1.exe"/>
-    <ROW Section="1.0.1" Key="Flags" Value="SilentInstall|NoCache|Advertises"/>
-    <ROW Section="1.0.1" Key="RegistryKey" Value="HKUD\Software\MiDuICT\SmartLogger\Version"/>
-    <ROW Section="1.0.1" Key="Version" Value="1.0.1.0"/>
+    <ROW Section="1.0.2" Key="Name" Value="SmartLogger"/>
+    <ROW Section="1.0.2" Key="ProductVersion" Value="1.0.2"/>
+    <ROW Section="1.0.2" Key="URL" Value="http://211.159.154.123/setup/SmartLogger-Setup-1.0.2.msi"/>
+    <ROW Section="1.0.2" Key="Size" Value="SmartLogger-1.0.2-SetupFiles\SmartLogger-Setup-1.0.2.msi"/>
+    <ROW Section="1.0.2" Key="MD5" Value="SmartLogger-1.0.2-SetupFiles\SmartLogger-Setup-1.0.2.msi"/>
+    <ROW Section="1.0.2" Key="CommandLine" Value="/qn"/>
+    <ROW Section="1.0.2" Key="ServerFileName" Value="SmartLogger-Setup-1.0.2.msi"/>
+    <ROW Section="1.0.2" Key="Flags" Value="SilentInstall"/>
+    <ROW Section="1.0.2" Key="RegistryKey" Value="HKUD\Software\MiDuICT\SmartLogger\Version"/>
+    <ROW Section="1.0.2" Key="Version" Value="1.0.2"/>
     <ATTRIBUTE name="OutputFileName" value=".txt"/>
   </COMPONENT>
 </DOCUMENT>
