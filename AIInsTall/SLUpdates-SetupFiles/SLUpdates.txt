@@ -4,10 +4,10 @@
 Name = SmartLogger
 ProductVersion = 1.0.2
 URL = http://211.159.154.123/setup/SmartLogger-Setup-1.0.2.msi
-Size = 8432640
-MD5 = 403bcb726bb6d12fd9963dfed6c855a5
+Size = 8962560
+MD5 = 39f9c4baea604a78ef71bb9ce5abbe07
 CommandLine = /qn
 ServerFileName = SmartLogger-Setup-1.0.2.msi
-Flags = SilentInstall
+Flags = SilentInstall|NoCache
 RegistryKey = HKUD\Software\MiDuICT\SmartLogger\Version
 Version = 1.0.2
