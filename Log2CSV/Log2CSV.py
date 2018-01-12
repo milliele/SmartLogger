@@ -73,6 +73,21 @@ def formattime(sec):
     hour = sec
     return '%d:%d:%d'%(hour, min, second)
 
+def deal(x):
+    id = reversed(range(len(x)))
+    stack = []
+    for i in id:
+        if x[i]=="}":
+            stack.append(i)
+        elif x[i]=='{':
+            if len(stack)==0:
+                return None
+            en = stack.pop()
+            if stack==[]:
+                return x[i:en+1]
+    return None
+
+
 def MyChange(filepath):
     fobj = open(filepath,'r')
     import csv
@@ -84,6 +99,9 @@ def MyChange(filepath):
 
     for x in list:
         import json
+        x = deal(x)
+        if x == None:
+            continue
         message = json.loads(x)
         for j in message['in']:
             pending[(j[0], j[1])] = message['time']

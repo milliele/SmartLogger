@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a34f764-9625-48f8-ac9e-e1ebeeb79fd4" name="Default" comment="" />
+    <list default="true" id="8a34f764-9625-48f8-ac9e-e1ebeeb79fd4" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Log2CSV/Zeus-172.31.107.107-20170531.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Log2CSV/Zeus-172.31.107.107-20170531.log" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Log2CSV/Log2CSV.py" afterPath="$PROJECT_DIR$/Log2CSV/Log2CSV.py" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,9 +15,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/monitor$Log2CSV.coverage" NAME="Log2CSV Coverage Results" MODIFIED="1515740868074" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Log2CSV" />
     <SUITE FILE_PATH="coverage/monitor$TMP.coverage" NAME="TMP Coverage Results" MODIFIED="1495774178650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SmartLogger/Src" />
     <SUITE FILE_PATH="coverage/monitor$Unittests_in_App_py.coverage" NAME="Unittests in App.py Coverage Results" MODIFIED="1492735718905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/monitor$Decrypt.coverage" NAME="Decrypt Coverage Results" MODIFIED="1509529353870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Coding" />
+    <SUITE FILE_PATH="coverage/monitor$Decrypt.coverage" NAME="Decrypt Coverage Results" MODIFIED="1510105230669" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Coding" />
     <SUITE FILE_PATH="coverage/monitor$Encrypt.coverage" NAME="Encrypt Coverage Results" MODIFIED="1500438850540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Coding" />
     <SUITE FILE_PATH="coverage/monitor$FTP.coverage" NAME="FTP Coverage Results" MODIFIED="1495896387033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SmartLogger/Src" />
     <SUITE FILE_PATH="coverage/monitor$SettingFrame.coverage" NAME="SettingFrame Coverage Results" MODIFIED="1493141335285" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Src" />
@@ -33,11 +39,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Decrypt.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Coding/Decrypt.py">
+      <file leaf-file-name="Log2CSV.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Log2CSV/Log2CSV.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="65" column="192" lean-forward="false" selection-start-line="65" selection-start-column="192" selection-end-line="65" selection-end-column="192" />
+            <state relative-caret-position="-2187">
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -126,6 +132,7 @@
         <option value="$PROJECT_DIR$/SmartLogger/Src/Encrypt.py" />
         <option value="$PROJECT_DIR$/SmartLogger/Src/watchProcess.py" />
         <option value="$PROJECT_DIR$/Coding/Decrypt.py" />
+        <option value="$PROJECT_DIR$/Log2CSV/Log2CSV.py" />
       </list>
     </option>
   </component>
@@ -157,14 +164,29 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="monitor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="monitor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="monitor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="monitor" type="462c0819:PsiDirectoryNode" />
+              <item name="Log2CSV" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="SearchEverywhereHistoryKey" value="ip&#9;null&#9;null&#10;ShellExecuteEx&#9;FILE&#9;file://C:/Python27/Lib/site-packages/win32comext/shell/demos/shellexecuteex.py&#10;shellexecuteex&#9;null&#9;null&#10;WM_END&#9;null&#9;null&#10;wndproc&#9;null&#9;null&#10;TranslateMessage&#9;null&#9;null&#10;getmessage&#9;null&#9;null&#10;pump&#9;null&#9;null&#10;DateP&#9;null&#9;null&#10;DatePi&#9;null&#9;null&#10;error_perm&#9;null&#9;null&#10;windowserror&#9;null&#9;null&#10;acquire&#9;null&#9;null&#10;start_new_thread&#9;null&#9;null&#10;thread&#9;null&#9;null&#10;Lock&#9;null&#9;null&#10;thread.py&#9;FILE&#9;file://C:/Python27/Lib/threading.py&#10;threading&#9;FILE&#9;file://C:/Python27/Lib/threading.py" />
   </component>
@@ -185,7 +207,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Decrypt">
+  <component name="RunManager" selected="Python.Log2CSV">
     <configuration name="Decrypt" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -240,20 +262,20 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="FTP" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Log2CSV" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SmartLogger/Src" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Log2CSV" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="monitor" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SmartLogger/Src/FTP.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Log2CSV/Log2CSV.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -425,18 +447,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.SmartLogger" />
-      <item index="1" class="java.lang.String" itemvalue="Python.FTP" />
-      <item index="2" class="java.lang.String" itemvalue="Python.EncodeFTP" />
-      <item index="3" class="java.lang.String" itemvalue="Python.Encrypt" />
-      <item index="4" class="java.lang.String" itemvalue="Python.Decrypt" />
+      <item index="1" class="java.lang.String" itemvalue="Python.EncodeFTP" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Encrypt" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Decrypt" />
+      <item index="4" class="java.lang.String" itemvalue="Python.Log2CSV" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.Decrypt" />
-        <item index="1" class="java.lang.String" itemvalue="Python.SmartLogger" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Encrypt" />
-        <item index="3" class="java.lang.String" itemvalue="Python.EncodeFTP" />
-        <item index="4" class="java.lang.String" itemvalue="Python.FTP" />
+        <item index="0" class="java.lang.String" itemvalue="Python.Log2CSV" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Decrypt" />
+        <item index="2" class="java.lang.String" itemvalue="Python.SmartLogger" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Encrypt" />
+        <item index="4" class="java.lang.String" itemvalue="Python.EncodeFTP" />
       </list>
     </recent_temporary>
   </component>
@@ -490,6 +512,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -497,11 +520,11 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32611173" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.325315" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39968404" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39862543" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -553,7 +576,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="104" />
+      <option name="time" value="105" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
@@ -622,13 +645,6 @@
     <entry file="file://C:/Python27/Lib/site-packages/win32comext/shell/demos/shellexecuteex.py" />
     <entry file="file://C:/Python27/Lib/site-packages/win32com/client/dynamic.py" />
     <entry file="file://$PROJECT_DIR$/SmartLogger/Src/TMP.py" />
-    <entry file="file://$PROJECT_DIR$/Log2CSV/Log2CSV.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1644">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Python27/Lib/site-packages/wx-3.0-msw/wx/_core.py" />
     <entry file="file://$PROJECT_DIR$/Coding/EncodeFTP.py" />
     <entry file="file://$PROJECT_DIR$/Coding/Encrypt.py">
@@ -642,9 +658,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
           <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding>
-            <element signature="e#25#55#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -652,10 +665,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="239" column="15" lean-forward="false" selection-start-line="239" selection-start-column="15" selection-end-line="239" selection-end-column="15" />
-          <folding>
-            <element signature="e#4048#8466#0" expanded="false" />
-            <element signature="e#8519#9431#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -663,7 +672,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="756">
           <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -671,7 +679,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="756">
           <caret line="177" column="54" lean-forward="false" selection-start-line="177" selection-start-column="51" selection-end-line="177" selection-end-column="54" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -679,18 +686,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
           <caret line="101" column="0" lean-forward="false" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
-          <folding>
-            <element signature="e#165#174#0" expanded="true" />
-            <element signature="e#289#520#0" expanded="false" />
-            <element signature="e#1032#1323#0" expanded="false" />
-            <element signature="e#3519#4749#0" expanded="false" />
-            <element signature="e#4790#5198#0" expanded="false" />
-            <element signature="e#5232#6124#0" expanded="false" />
-            <element signature="e#6153#7825#0" expanded="false" />
-            <element signature="e#8648#9242#0" expanded="false" />
-            <element signature="e#9276#9419#0" expanded="false" />
-            <element signature="e#9457#10203#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -698,17 +693,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="314" column="0" lean-forward="false" selection-start-line="314" selection-start-column="0" selection-end-line="314" selection-end-column="0" />
-          <folding>
-            <element signature="e#10161#10676#0" expanded="false" />
-            <element signature="e#11456#11706#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Coding/Decrypt.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="65" column="192" lean-forward="false" selection-start-line="65" selection-start-column="192" selection-end-line="65" selection-end-column="192" />
+        <state relative-caret-position="0">
+          <caret line="47" column="36" lean-forward="false" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Log2CSV/Log2CSV.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2187">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>
