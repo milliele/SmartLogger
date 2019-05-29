@@ -1,6 +1,6 @@
 #SmartLogger
 ##Setup.exe
-安装程序，安装说明见`Readme.html`
+安装程序，安装说明见`SmartLogger/Readme.html`
 ## SL.exe
 真正的监控程序
 ## SmartLogger.exe
